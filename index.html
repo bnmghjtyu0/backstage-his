@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>HIS</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- easyUI -->
+  <link rel="stylesheet" href="assets/easyUI/easyui.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-l">
+      <a href="#" class="logo">
+        <div>
+          <i class="icon icon-logo-white"></i>
+        </div>
+        <div>
+          <i class="icon icon-logoText-white"></i>
+        </div>
+      </a>
+    </div>
+    <div class="header-r">
+      <div class="row  align-items-center no-gutters">
+        <div class="col-auto header-rL mr-auto d-flex">
+          <button class="navbar-toggler mr-3">
+            <span class="toggler-t"></span>
+            <span class="toggler-c"></span>
+            <span class="toggler-b"></span>
+          </button>
+          <div class="input-group input-group-xs header-search">
+            <input type="text" class="form-control" placeholder="Search ..." aria-label="Input group example" aria-describedby="btnGroupAddon">
+            <a href="#" class="input-group-addon" id="btnSearch">
+              <img src="img/icon-search.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-auto header-rR">
+          <div class="d-flex align-items-center">
+            <div class="dropdown dropdown-initial">
+              <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+                Jack Williams
+                <i class="icon icon-arrow-b ml-2"></i>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">登出</a>
+              </div>
+            </div>
+            <div class="dropdown dropdown-initial">
+              <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+                <i class="icon icon-Notification-border"></i>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">通知</a>
+              </div>
+            </div>
+            <div class="dropdown dropdown-initial">
+              <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+                <i class="icon icon-Setting-border"></i>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">設定</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <aside class="sidebar">
+    <div class="sidebar-in scrollbarA">
+      <div class="accordionStyle" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="card">
+          <div class="card-header" role="tab" id="headingOne">
+            <div class="dropdown">
+              <a href="#" type="button" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+                <div>
+                  <i class="icon icon-project"></i>
+                </div>
+                <div>系統設置</div>
+                <div>
+                  <span class="badge badge-pill badge-TiffanyGreen">20</span>
+                </div>
+              </a>
+              <div class="dropdown-menu sidebarBox" aria-labelledby="dropdownMenuButton">
+                <div class="grid">
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_Hosipital.png" alt="">
+                      </div>
+                      <p>基本資料</p>
+                    </a>
+
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_List.png" alt="">
+                      </div>
+                      <p>病歷系統</p>
+                    </a>
+
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_System.png" alt="">
+                      </div>
+                      <p>批掛系統</p>
+                    </a>
+
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_bed.png" alt="">
+                      </div>
+                      <p>住院系統</p>
+                    </a>
+
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_List2.png" alt="">
+                      </div>
+                      <p>門診醫囑</p>
+                    </a>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_Nurse01.png" alt="">
+                      </div>
+                      <p>門診護理</p>
+                    </a>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_eme01.png" alt="">
+                      </div>
+                      <p>急診醫囑</p>
+                    </a>
+
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_eme02.png" alt="">
+                      </div>
+                      <p>急診護理</p>
+                    </a>
+
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_List3.png" alt="">
+                      </div>
+                      <p>住院醫囑</p>
+                    </a>
+
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_Nurse02.png" alt="">
+                      </div>
+                      <p>住院護理</p>
+                    </a>
+
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_Medicine.png" alt="">
+                      </div>
+                      <p>藥師系統</p>
+                    </a>
+
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_bone.png" alt="">
+                      </div>
+                      <p>檢查系統</p>
+                    </a>
+
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_pipette.png" alt="">
+                      </div>
+                      <p>檢驗系統</p>
+                    </a>
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_heart.png" alt="">
+                      </div>
+                      <p>手術系統</p>
+                    </a>
+
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_Lung01.png" alt="">
+                      </div>
+                      <p>透析系統</p>
+                    </a>
+
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_Crutch.png" alt="">
+                      </div>
+                      <p>復健治療</p>
+                    </a>
+
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_lung02.png" alt="">
+                      </div>
+                      <p>呼吸治療</p>
+                    </a>
+
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_System02.png" alt="">
+                      </div>
+                      <p>申報系統</p>
+                    </a>
+
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_Nutrition.png" alt="">
+                      </div>
+                      <p>營養系統</p>
+                    </a>
+
+                  </div>
+                  <div class="item">
+                    <a href="#" class="btn d-block">
+                      <div class="d-block">
+                        <img src="img/menu_Chart.png" alt="">
+                      </div>
+                      <p>業務統計</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="collapseSystem" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+            <div class="card-block">
+              <ul class="collapseSystem-list">
+                <li>
+                  <div class="dropdown">
+                    <a href="#" type="button" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+                      <div>
+                        <i class="icon icon-project"></i>
+                      </div>
+                      <div>基本資料</div>
+                      <div>
+                        <span class="badge badge-pill badge-TiffanyGreen">1</span>
+                      </div>
+                    </a>
+                    <div class="dropdown-menu sidebarBox" aria-labelledby="dropdownMenuButton">
+                      <div class="grid">
+                        <div class="item">
+                          <a href="#" class="btn d-block">
+                            <div class="d-block">
+                              <img src="img/menu_Hosipital.png" alt="">
+                            </div>
+                            <p>基本資料</p>
+                          </a>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="dropdown">
+                    <a href="#" type="button" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+                      <div>
+                        <i class="icon icon-project"></i>
+                      </div>
+                      <div>病歷系統</div>
+                      <div>
+                        <span class="badge badge-pill badge-TiffanyGreen">1</span>
+                      </div>
+                    </a>
+                    <div class="dropdown-menu sidebarBox" aria-labelledby="dropdownMenuButton">
+                      <div class="grid">
+                        <div class="item">
+                          <a href="#" class="btn d-block">
+                            <div class="d-block">
+                              <img src="img/menu_List.png" alt="">
+                            </div>
+                            <p>病歷系統</p>
+                          </a>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="dropdown">
+                    <a href="#" type="button" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+                      <div>
+                        <i class="icon icon-project"></i>
+                      </div>
+                      <div>批掛系統</div>
+                      <div>
+                        <span class="badge badge-pill badge-TiffanyGreen">1</span>
+                      </div>
+                    </a>
+                    <div class="dropdown-menu sidebarBox" aria-labelledby="dropdownMenuButton">
+                      <div class="grid">
+                        <div class="item">
+                          <a href="#" class="btn d-block">
+                            <div class="d-block">
+                              <img src="img/menu_System.png" alt="">
+                            </div>
+                            <p>批掛系統</p>
+                          </a>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <!-- #dropdown 住院系統 -->
+                <li>
+                  <div class="dropdown">
+                    <a href="#" type="button" data-toggle="dropdown" id="dropdownMenuButton" aria-haspopup="true" aria-expanded="false">
+                      <div>
+                        <i class="icon icon-project"></i>
+                      </div>
+                      <div>住院系統</div>
+                      <div>
+                        <span class="badge badge-pill badge-TiffanyGreen">1</span>
+                      </div>
+                    </a>
+                    <div class="dropdown-menu sidebarBox" aria-labelledby="dropdownMenuButton">
+                      <div class="grid">
+                        <div class="item">
+                          <a href="#" class="btn d-block">
+                            <div class="d-block">
+                              <img src="img/menu_bed.png" alt="">
+                            </div>
+                            <p>住院系統</p>
+                          </a>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </aside>
+
+  <main>
+    <div class="Main_home">
+      <div class="row no-gutters">
+        <h2>Basic Calendar</h2>
+        <p>Click to select date.</p>
+        <div style="margin:20px 0"></div>
+        <div class="easyui-calendar" style="width:250px;height:250px;"></div>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+  <!-- easyUI -->
+  <script src="assets/easyUI/jquery.easyui.min.js"></script>
+  <script src="js/all.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>HIS</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+  <div class="o-wrap">
+    <div class="loginBox">
+      <div class="loginBox_header">
+        <div class="logo"></div>
+        <h2 class="title">
+          <img src="img/login_title.png" class="img-fluid" alt="">
+        </h2>
+      </div>
+      <div class="loginBox_body">
+        <div class="input-group input-group-radius input-group-animation input-white mb-3">
+          <span class="input-group-addon" id="btnGroupAddon">
+            <img src="img/icon-user.png" alt="icon-user">
+          </span>
+          <input type="text" class="form-control" placeholder="yourmail.gmail.com" aria-describedby="btnGroupAddon">
+        </div>
+        <div class="input-group input-group-radius input-group-animation input-white mb-3">
+          <span class="input-group-addon" id="btnGroupAddon">
+            <img src="img/icon-lock.png" alt="icon-lock">
+          </span>
+          <input type="text" class="form-control" placeholder="*************" aria-describedby="btnGroupAddon">
+        </div>
+        <div class="input-group input-group-animation captcha-group mb-3">
+          <input type="text" class="form-control" aria-describedby="btnGroupAddon">
+          <span class="input-group-addon" id="btnGroupAddon">ckjisv</span>
+          <a href="#" class="btn-reset">
+            <img src="img/icon-reset.png" alt="">
+          </a>
+        </div>
+        <div class="mt-3">
+          <input type="submit" class="btn btn-linearGB" value="登入">
+        </div>
+
+      </div>
+      <div class="loginBox_foot mt-3 text-center">
+        <a href="#" class="mr-2">忘記密碼</a> /
+        <a href="#" class="ml-2">註冊帳號</a>
+      </div>
+
+
+    </div>
+    <footer>
+      © 2017著作權所有 建議最佳瀏覽解析度為1024x768或以上
+
+    </footer>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(".input-group-animation .form-control").focus(function () {
+      $(this).prev('.input-group-addon').addClass('active');
+    });
+    $(".input-group-animation .form-control").focusout(function () {
+      $(this).prev('.input-group-addon').removeClass('active');
+    });
+  </script>
+</body>
+
+</html>
