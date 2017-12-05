@@ -241,7 +241,10 @@ aside {
   }
   &.active {
     width: $asideWidth-xs;
-    overflow-x: hidden;
+    // overflow-x: hidden;
+    .sidebar-in {
+      width: #{$asideWidth-xs}
+    }
   }
   &.md {
     width: $asideWidth-xs;
